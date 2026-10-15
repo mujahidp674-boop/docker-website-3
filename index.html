@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #eaf8f7;
+        color: #173b46;
+    }
+
+    header {
+        background: #087f8c;
+        color: white;
+        text-align: center;
+        padding: 25px 15px;
+    }
+
+    nav {
+        background: #075b63;
+        padding: 14px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 12px;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 35px auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        color: #087f8c;
+        font-size: 38px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 12px;
+        padding: 25px;
+        flex: 1 1 220px;
+        box-shadow: 0 5px 15px #00000012;
+    }
+
+    .card span {
+        font-size: 42px;
+    }
+
+    footer {
+        background: #075b63;
+        color: white;
+        text-align: center;
+        padding: 18px;
+        margin-top: 40px;
+    }
+</style>
+
+</head>
+<body>
+    <header>
+        <h2>TRAVEL EXPLORER</h2>
+        <p>Discover the world, one journey at a time</p>
+    </header><nav>
+    <a href="#home">Home</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#about">About</a>
+</nav>
+
+<main id="home">
+    <h1>Your Next Adventure Awaits</h1>
+    <p>Find inspiration for your next unforgettable journey.</p>
+
+    <section class="cards" id="destinations">
+        <div class="card">
+            <span>🏔️</span>
+            <h2>Mountains</h2>
+            <p>Explore peaceful hills and breathtaking views.</p>
+        </div>
+
+        <div class="card">
+            <span>🏖️</span>
+            <h2>Beaches</h2>
+            <p>Enjoy sunny shores and relaxing ocean views.</p>
+        </div>
+
+        <div class="card">
+            <span>🌆</span>
+            <h2>City Trips</h2>
+            <p>Discover vibrant cities, culture, and food.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Explore More</h2>
+        <p>This sample travel website is built with HTML and CSS.</p>
+    </section>
+</main>
+
+<footer>
+    <p>Website 3 | Apache and Docker on AWS EC2</p>
+</footer>
+
+</body>
+</html>
